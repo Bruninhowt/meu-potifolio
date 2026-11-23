@@ -22,6 +22,15 @@ html{
 body{
     background-color: var(--fundo-principal);
 }
+/**/
+body.dark-mode{
+    --fundo-principal: #121212 ;
+    --texto: #ffffff ;
+    --texto-inverso: #ffffff ;
+    --destaque: #3b82f6 ;
+    --destaque-inverso: #18338c ;
+    --fundo-card: #1e1e1e;
+}
 
 main{
     margin: 10px;
